@@ -1,0 +1,20 @@
+.logcard {
+  width: 30em;
+  align-self: center;
+
+}
+
+.example-container{
+  display: flex;
+  background-color: #1170ff;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+mat-form-field{
+
+  width: 30em;
+}
+
