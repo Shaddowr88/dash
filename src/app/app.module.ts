@@ -20,6 +20,7 @@ import { MatSelectModule, MatInputModule } from '@angular/material';
 import { IndexComponent } from './index/index.component';
 import { MatMenuModule } from '@angular/material/menu';
 import { ListeComponent } from './components/liste/liste.component';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 
 
@@ -32,7 +33,8 @@ import { ListeComponent } from './components/liste/liste.component';
     HeaderComponent,
     NavooComponent,
     IndexComponent,
-    ListeComponent
+    ListeComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -49,6 +51,7 @@ import { ListeComponent } from './components/liste/liste.component';
     MatSelectModule,
     MatInputModule,
     MatMenuModule,
+    MatGridListModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
